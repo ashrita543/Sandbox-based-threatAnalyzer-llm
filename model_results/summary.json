@@ -1,0 +1,30 @@
+{
+  "deepseek-r1:14b": {
+    "macro_f1": 0.842,
+    "weighted_f1": 0.865,
+    "avg_ioc_recall": 0.900,
+    "fn_rate": 0.10,
+    "fp_rate": 0.05
+  },
+  "gemma3:12b": {
+    "macro_f1": 0.724,
+    "weighted_f1": 0.758,
+    "avg_ioc_recall": 0.800,
+    "fn_rate": 0.20,
+    "fp_rate": 0.10
+  },
+  "llama3.1:latest": {
+    "macro_f1": 0.685,
+    "weighted_f1": 0.702,
+    "avg_ioc_recall": 0.800,
+    "fn_rate": 0.20,
+    "fp_rate": 0.10
+  },
+  "qwen3:4b-instruct": {
+    "macro_f1": 0.552,
+    "weighted_f1": 0.624,
+    "avg_ioc_recall": 0.700,
+    "fn_rate": 0.30,
+    "fp_rate": 0.20
+  }
+}

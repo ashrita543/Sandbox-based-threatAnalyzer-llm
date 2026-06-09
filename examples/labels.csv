@@ -1,0 +1,21 @@
+﻿File,ThreatLevel,Type
+Simulated_Ransomware.py,CRITICAL,Critical (Simulated Ransomware/Destructive Action)
+ReverseShell.py,CRITICAL,Remote Access Trojan (Reverse Shell)
+Simulated_Beacon.py,HIGH,Command and Control Check-in (Simulated Beacon)
+StagingAttempt.py,HIGH,Data Discovery / Staging Attempt
+Persistence.py,HIGH,Persistence (Dropping Executable & Modifying Shell Config)
+malicious_read_passwd.py,HIGH,Read Password
+CredentialTheft.py,HIGH,Credential Theft / Data Staging
+Downloader.py,HIGH,Downloader / Second-Stage Dropper
+DataExfiltration.py,HIGH,Data Exfiltration
+System_Reconnaissance.py,LOW,Basic System Reconnaissance
+DiskMonitoring.py,LOW,System Utility / Disk Monitoring
+Network_Information_Discovery.py,LOW,Network Information Discovery
+Local_Port_Scanning.py,MEDIUM,Infrastructure Reconnaissance (Local Port Scanning)
+malicious_network_attempt.py,MEDIUM,Network Attempt
+malicious_spawn_process.py,MEDIUM,Spawn Process
+malicious_safe_combo.py,MEDIUM,Python-based Telemetry Beacon with SUID Abuse
+AntiSandbox.py,MEDIUM,Evasion / Anti-Sandbox Technique
+DataStaging.sh,MEDIUM,Data Staging / Evidence Collection
+sample.py,No Threat,Test Script
+SystemSecurity.sh,MEDIUM,System Security Disabling / Remote Script Execution (Dropper)

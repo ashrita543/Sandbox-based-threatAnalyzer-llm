@@ -1,0 +1,4 @@
+docker
+ollama
+scikit-learn
+pandas
